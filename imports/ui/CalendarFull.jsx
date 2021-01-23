@@ -8,7 +8,7 @@ import { useTracker } from 'meteor/react-meteor-data';
 import { TasksCollection } from '../api/tasks';
 
       
-export const CalendarFull = () => {
+const CalendarFull = () => {
 
     let eventGuid = 0;
 
@@ -67,3 +67,5 @@ export const CalendarFull = () => {
     
     )
 };
+
+export default CalendarFull;
