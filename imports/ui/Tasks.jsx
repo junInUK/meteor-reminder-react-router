@@ -12,7 +12,7 @@ const Tasks = () => {
 
   const tasksArray = tasks.map(task => {
     return (
-      <TaskItem key={task._id}>{task.title}</TaskItem>
+      <TaskItem key={task._id} id={task._id}>{task.title}</TaskItem>
     )
   });
 
